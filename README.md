@@ -10,8 +10,9 @@ Basic chat server/client that I wrote in ~10 mins while learning sockets.
 ## Compiling (on Linux)
 
 ### Using g++
-`g++ -std=c++17 -o server server.cpp`
-`g++ -std=c++17 -o client client.cpp`
+```bash
+g++ -std=c++17 -o server server.cpp
+g++ -std=c++17 -o client client.cpp
 
 ### Using make
 ```bash
