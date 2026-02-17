@@ -20,7 +20,6 @@ int main() {
 
   char buf[1024] = {0};
   bool showSrv = true;
-
   while (true) {
     std::string uinput = "";
     std::cout << "Message: ";

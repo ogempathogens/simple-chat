@@ -16,8 +16,6 @@ int main() {
   int clnSocket = accept(srvSocket, nullptr, nullptr);
 
   char buf[1024] = {0};
-  std::cout << "Client connected: " << "\n";
-
   while (true) {
     int bytesRecv = recv(clnSocket, buf, sizeof(buf), 0);
 
