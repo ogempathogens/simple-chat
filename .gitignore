@@ -1,0 +1,9 @@
+server
+client
+
+*.out
+*.exe
+*.o
+*.so
+
+
